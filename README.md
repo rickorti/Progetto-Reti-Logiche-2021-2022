@@ -30,4 +30,4 @@ Il componente è stato sottoposto a diversi casi di test regolari per verificarn
 
 ## Conclusioni
 
-Nel documento con le specifiche della consegna è possibile avere una maggior chiarezza ed una maggior dettagliata descrizione del funzionamento richiesto dal componente. Il progetto è stato valutato 30/30 Cum Laude
+Nel documento con le [specifiche](/specifications/Specifiche_progetto.pdf) della consegna è possibile avere una maggior chiarezza ed una maggior dettagliata descrizione del funzionamento richiesto dal componente. Il progetto è stato valutato 30/30 Cum Laude
