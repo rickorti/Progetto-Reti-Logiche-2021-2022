@@ -42,7 +42,7 @@ This project aims at applying the knowledge acquired from the Reti Logiche (Digi
 
 ## Description
 
-The designed component communicates with a memory component from which it reads each word one at a time, serializes it obtaining a stream of bit to which it then applies the convolutional code described in figure below. The code has a rate of 1/2, meaning that the output is twice as long as the input, so the 16-bit stream obtained as result is split into two words that are then written in the memory component. Below the figure is an example of execution, *Uk* represents the k-th bit of the input word, *P1k* and *P2k* represent the two bits obtained as a result as shown in figure. The overall result is the concatenation of the output bits *P1k* and *P2k* in this order (*P11-P21-P12-P22-P13-P23-P14-P24*...).
+The designed component communicates with a memory component from which it reads each word one at a time, it serializes the byte obtaining a stream of bits to which it then applies the convolutional code described in figure below. The code has a rate of 1/2, meaning that the output is twice as long as the input, so the 16-bit stream obtained as result is split into two words that are then written in the memory component. Below the figure is an example of execution, *Uk* represents the k-th bit of the input word, *P1k* and *P2k* represent the two bits obtained as a result as shown in figure. The overall result is the concatenation of the output bits *P1k* and *P2k* in this order (*P11-P21-P12-P22-P13-P23-P14-P24*...).
 
 ![Description of convolutional code](/images/convolutore.png "Convolutional code")
 
